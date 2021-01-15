@@ -1,0 +1,11 @@
+<?php
+    session_start();
+    unset($_SESSION["usu_id"]);
+    unset($_SESSION["usuRegistro"]);
+    unset($_SESSION["contraRegistro"]);
+    unset($_SESSION["fechaEntrega"]);
+    unset($_SESSION["fechaDucha"]);
+    unset($_SESSION["qr"]);
+    unset($_SESSION["grupoDesmatricular"]);
+    header("Location:..");
+?>
